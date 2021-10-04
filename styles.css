@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #ff9933;
+  --primary-color: #ea580c;
+  --primary-color-accent: #fb923c;
+  --grey: #525252;
 }
 
 body {
@@ -79,7 +81,24 @@ hr {
 }
 
 .navigation a:hover {
-  background-color: coral;
+  background-color: var(--primary-color-accent);
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+/* header */
+
+.hero {
+  padding: 2rem;
+}
+
+.hero-img {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.hero h1 {
+  text-align: center;
+  color: var(--grey);
 }
