@@ -9,6 +9,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* container */
@@ -84,7 +86,6 @@ hr {
 .navigation a:hover {
   background-color: var(--primary-color-accent);
   font-weight: 700;
-  font-size: 1.1rem;
 }
 
 /* header */
@@ -105,11 +106,34 @@ hr {
 }
 
 /* section */
+section {
+  padding: 2rem;
+}
+
 section h1 {
   text-align: center;
-  padding: 2rem;
 }
 
 .off-white {
   background-color: var(--off-white);
+}
+
+/* footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  border-radius: 1rem 1rem 0 0;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  background-color: var(--primary-color-accent);
+  font-weight: 700;
+}
+
+footer ul {
+  padding-inline-start: 0;
 }
