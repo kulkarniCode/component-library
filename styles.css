@@ -4,6 +4,7 @@
   --primary-color: #ea580c;
   --primary-color-accent: #fb923c;
   --grey: #525252;
+  --off-white: #e5e5e5;
 }
 
 body {
@@ -101,4 +102,14 @@ hr {
 .hero h1 {
   text-align: center;
   color: var(--grey);
+}
+
+/* section */
+section h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.off-white {
+  background-color: var(--off-white);
 }
